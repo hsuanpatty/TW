@@ -366,7 +366,7 @@ p {
 .banner .mitsui-title {
     position: absolute;
     left: 81%;
-    top: 25%;
+    top: 40%;
     transform: translate(-50%, -50%);
 
     width: 33%;
@@ -402,9 +402,9 @@ p {
 
 @media (max-width: 575.98px) {
   .banner .mitsui-title {
-    left: 50%;
-    top: 18%;
-    width: 95%;
+    left: 54%;
+    top: 21%;
+    width: 88%;
   }
 
   /*  menu  */
@@ -424,8 +424,8 @@ p {
 @media (min-width: 1400px) { 
 
   .banner .mitsui-title {
-    width: 31%;
-    left: 80%;
+    width: 33%;
+    left: 82%;
   }
 
   nav {
@@ -464,7 +464,7 @@ p {
 @media (min-width: 1400px) {
   .mitsu-group {
     padding: 30px 0 60px;
-} 
+  } 
 }
 
 /* --- 核心修正：卡片主體 --- */
@@ -655,8 +655,22 @@ p {
 }
 
 @media (min-width: 992px) {
-  .mitsu-group { grid-template-columns: repeat(3, 1fr); gap: 2rem; }
+  .mitsu-group { grid-template-columns: repeat(3, 1fr); gap: 1rem; }
 }
+
+
+@media (min-width: 1200px) {
+  .mitsu-group { gap: 2rem; }
+}
+
+
+@media (max-width: 1199.98px) {
+    .card-d h3 > span {
+    font: 23px GenKiMin-R;
+    font-weight: 600;
+  }
+}
+
 
 @media (max-width: 575.98px) {
   .mitsu-container { padding: 1.5rem 20px 0; }
@@ -671,7 +685,6 @@ p {
 
   .card-d h3 > span {
     font: 25px GenKiMin-R;
-    font-weight: 600;
   }
 
   .mitsu-group {
