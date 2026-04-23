@@ -461,6 +461,12 @@ p {
   padding: 30px 0 50px;
 }
 
+@media (min-width: 1400px) {
+  .mitsu-group {
+    padding: 30px 0 60px;
+} 
+}
+
 /* --- 核心修正：卡片主體 --- */
 .mitsu-box {
   --var-state: paused;
