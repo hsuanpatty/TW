@@ -392,6 +392,13 @@ p {
   }
 }
 
+@media (max-width: 767.98px) {
+    nav {
+    padding: 12px ;
+    justify-content: center;
+  }
+
+}
 
 @media (max-width: 575.98px) {
   .banner .mitsui-title {
@@ -404,10 +411,6 @@ p {
   li {
     padding: 8px 10px;
     font-size: 22px;
-  }
-
-  nav {
-    padding: 12px ;
   }
 
   
@@ -940,4 +943,32 @@ footer a {
     #site-footer .container {
         max-width: 1480px;
     }
+}
+
+/* TOP */
+#goTop {
+  background-image: url(../images/top.png);
+  display: none;            
+  position: fixed;
+  width: 45px;
+  height: 45px;
+  bottom: 20px;
+  right: 30px;
+  border-radius: 99rem;
+  cursor: pointer;
+  opacity: 0.9;
+  transition: 0.3s;
+  z-index: 100;
+}
+
+#goTop:hover {
+  opacity: 1;
+}
+
+@media (max-width: 767.98px) {
+  #goTop {
+    bottom: 70px;
+    right: 10px;
+    opacity: 0.9;
+  } 
 }
