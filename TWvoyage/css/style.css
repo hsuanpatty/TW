@@ -398,6 +398,11 @@ p {
     justify-content: center;
   }
 
+  .logo-w {
+    width: 80%;
+    padding-top: 2px;
+    margin: auto;
+  }
 }
 
 @media (max-width: 575.98px) {
@@ -413,12 +418,6 @@ p {
     font-size: 22px;
   }
 
-  
-  .logo-w {
-    width: 80%;
-    padding-top: 2px;
-    margin: auto;
-  }
 }
 
 @media (min-width: 1400px) { 
