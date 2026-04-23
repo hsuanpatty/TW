@@ -698,10 +698,10 @@ p {
 
   .card-d h3 {
     font: 17px GenKiMin-R;
+    font-weight: 600;
     text-indent: 4px;
     letter-spacing: 0.02rem;
-    font-weight: 600;
-
+    padding-top: 0;
   }
 
   .card-d h3 > span {
@@ -748,6 +748,7 @@ p {
   .more-button .more-a {
     font: 15px GenKiMin-R;
     padding: 0.5rem 0.8rem;
+    white-space: nowrap;
   }
 
 }
