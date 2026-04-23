@@ -655,7 +655,7 @@ p {
 }
 
 @media (min-width: 992px) {
-  .mitsu-group { grid-template-columns: repeat(3, 1fr); gap: 1rem; }
+  .mitsu-group { grid-template-columns: repeat(3, 1fr); gap: 1.5rem 1rem; }
 }
 
 
@@ -663,11 +663,31 @@ p {
   .mitsu-group { gap: 2rem; }
 }
 
+@media (max-width: 1499.98px) {
+  .card-d {
+    display: flex;
+    padding-top: 15px;
+    border-top: 1px solid #f0f0f0;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+  }
+
+}
 
 @media (max-width: 1199.98px) {
     .card-d h3 > span {
     font: 23px GenKiMin-R;
     font-weight: 600;
+  }
+}
+
+@media (max-width: 767.98px) {
+.card-d {
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    gap: 8px;
   }
 }
 
@@ -678,7 +698,7 @@ p {
 
   .card-d h3 {
     font: 17px GenKiMin-R;
-    text-indent: 0;
+    text-indent: 4px;
     letter-spacing: 0.02rem;
     font-weight: 600;
 
