@@ -42,14 +42,6 @@ footer {
   letter-spacing: 1px;
 }
 
-p {
-  font-weight: 600;
-}
-
-h1 {
-  font-weight: 700;
-}
-
 .hidden {
   overflow: hidden;
 }
