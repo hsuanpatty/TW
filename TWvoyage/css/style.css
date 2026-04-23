@@ -572,6 +572,7 @@ p {
   justify-content: space-between;
   padding-top: 15px;
   border-top: 1px solid #f0f0f0; /*加一條細線區隔 */
+  align-items: center;
 }
 
 .card-d h3 {
@@ -674,11 +675,12 @@ p {
 @media (max-width: 575.98px) {
   .mitsu-container { padding: 1.5rem 20px 0; }
   .card-content h1 { font-size: 17px; }
-  .card-d h3 { font-size: 20px; }
 
   .card-d h3 {
     font: 17px GenKiMin-R;
     text-indent: 0;
+    letter-spacing: 0.02rem;
+    font-weight: 600;
 
   }
 
@@ -716,6 +718,16 @@ p {
 
   .mitsu-time p { 
     font-size: 15px;
+  }
+
+  .card-content {
+    padding: 1.5rem 0.6rem;
+  }
+
+
+  .more-button .more-a {
+    font: 15px GenKiMin-R;
+    padding: 0.5rem 0.8rem;
   }
 
 }
