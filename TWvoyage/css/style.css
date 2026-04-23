@@ -366,7 +366,7 @@ p {
 .banner .mitsui-title {
     position: absolute;
     left: 81%;
-    top: 38%;
+    top: 41%;
     transform: translate(-50%, -50%);
 
     width: 33%;
@@ -425,7 +425,7 @@ p {
 
   .banner .mitsui-title {
     width: 33%;
-    left: 82%;
+    left: 81%;
   }
 
   nav {
