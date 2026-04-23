@@ -697,10 +697,10 @@ p {
   .card-content h1 { font-size: 17px; }
 
   .card-d h3 {
-    font: 17px GenKiMin-R;
+    font: 18px GenKiMin-R;
     font-weight: 800;
     text-indent: 4px;
-    letter-spacing: 0.02rem;
+    letter-spacing: 0;
     padding-top: 0;
   }
 
