@@ -6,7 +6,14 @@
 
 @font-face {
   font-family: 'GenKiMin-R';
-  src: url('../fonts/GenKiMin2PJP-R.otf') format("truetype");
+  src: url('../fonts/GenKiMin2PJP-R.otf');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'GenKiMin-R';
+  src: url('../fonts/GenKiMin2PJP-B.otf');
+  font-weight: 700;
 }
 
 
@@ -38,7 +45,7 @@ li,
 section,
 header,
 footer {
-  font-family: 'Noto Sans TC', sans-serif;
+  font-family: 'GenKiMin-R','Noto Sans TC', sans-serif;
   letter-spacing: 1px;
 }
 
