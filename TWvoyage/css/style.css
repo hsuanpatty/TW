@@ -7,7 +7,7 @@
 @font-face {
   font-family: 'GenKiMin-R';
   src: url('../fonts/GenKiMin2PJP-R.otf') format("truetype");
-  font-weight: 600;
+  font-weight: 700;
 }
 
 
@@ -41,6 +41,14 @@ header,
 footer {
   font-family: 'Noto Sans TC', sans-serif;
   letter-spacing: 1px;
+}
+
+p {
+  font-weight: 600;
+}
+
+h1 {
+  font-weight: 700;
 }
 
 .hidden {
